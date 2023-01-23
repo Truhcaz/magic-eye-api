@@ -11,10 +11,10 @@ import handleProfil from './controllers/profil.js';
 const db = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1',
-        user: 'postgres',
-        password: 'test',
-        database: 'smart-brain'
+        host: 'dpg-cf7dal5a499d72p9s980-a',
+        user: 'magic_eye_db_user',
+        password: 'BNeBdOaqxiaHBp7WdQdXt8mgIB5g4uuU',
+        database: 'magic-eye'
     }
 });
 
