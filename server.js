@@ -10,7 +10,7 @@ import handleProfil from './controllers/profil.js';
 
 const db = knex({
     client: 'pg',
-    connection: 'postgres://magic_eye_db_user:d4kNJb7znMWmZctJRhkajXRAkvlmKFMT@dpg-chdr8ju7avj0djk7g640-a/magic_eye_db_f6fp'
+    connection: 'postgresql://magiceyedb_owner:HxOq4Y5tlcej@ep-delicate-sky-a2638155.eu-central-1.aws.neon.tech/magiceyedb?sslmode=require'
     }
 );
 
